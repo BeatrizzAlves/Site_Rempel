@@ -1,0 +1,33 @@
+
+.cuidados{
+	background: #fff;
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	margin-top: 90px;
+	text-align: center;
+	padding-top: 50px;
+	text-align: left;
+}
+
+.subtitulo{
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after{
+	content: "";
+	display:block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+	
+}
+

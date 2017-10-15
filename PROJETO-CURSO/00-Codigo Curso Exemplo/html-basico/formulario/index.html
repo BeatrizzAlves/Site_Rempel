@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Bikcraft</title>
+</head>
+<body>
+
+	
+	<h1>Bikcraft Bicicletas Personalizadas</h1> 
+	
+	<form action="enviar.php" method="post" name="form">
+
+		<div>
+			<label for="nome">Nome *</label>
+			<input id="nome" name="nome" type ="text" required>
+		</div>
+
+		<div>
+			<label for="email">E-mail *</label>
+			<input id="email" name= "email" type="text" required>
+		</div>	
+
+		<div>
+		<label for="unittype">Selecione:</label>
+		<select>
+			<option value="1">Bicicleta</option>
+			<option value="2">Carro</option>
+			<option value="3">Moto</option>
+			<option value="4">Onibus</option>
+			<option value="5" selected>Disco voador</option>
+		</select>
+		</div>
+
+		<div>
+		<p>Escolha a bicicleta</p>
+<label for="retro"> <input id="retro" type="checkbox" value="retro">Retro</label>
+<label for="esporte"> <input id="esporte" type="checkbox" value="esporte">Passeio</label>
+<label for="passeio"> <input id="passeio" type="checkbox" value="passeio">Esporte</label>
+		</div>
+
+		<label for="mensagem">Mensagem</label>
+		<textarea id="mensagem" name="mensagem"></textarea>
+
+		<button type="submit">Enviar</button>
+
+	</form>
+
+</body>
+</html>
