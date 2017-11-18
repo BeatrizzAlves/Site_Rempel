@@ -1,4 +1,4 @@
-/* Estilos Gerais */
+﻿/* Estilos Gerais */
 body{
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,8 +15,27 @@ img{
 }
 
 .logohome{
-	margin:auto; 
+	margin:0 auto; 
 	display:block;
+}
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
 }
 
 .btn{
@@ -131,12 +150,12 @@ img{
 
 .introducao{
 width: 100%;
-height: 590px;
 background: #000;
 background-size: cover;
 margin-top: 90px;
 text-align: center;
 padding-top: 50px;
+padding-bottom: 80px;
 }
 
 
@@ -213,27 +232,27 @@ padding-top: 50px;
 /*Artistas */
 
 .artistas{
-	padding: 60px 0;
+	padding: 40px 0;
 	position: relative;
+    text-align: center;
 }
 
 .artistas_lista li h1{
 	font-family: Georgia, "Times New Roman", serif;
 	padding-top: 15px;
 	font-size: 16px;
+    text-align: center;
 }
 
 .artistas_lista li{
 	background: none;
-	text-align: center;
-	display: inline-block;
-}
+	text-align: center; 
+    display: inline-block;
+  
+	}
 
-.artistas_lista li img{
-	margin: 0 auto;
-}
 
-.artistas_lista li h3{
+.artistas_lista h3{
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 0px;
@@ -245,6 +264,8 @@ padding-top: 50px;
 
 .artistas_icone img{
  height: 200px;
+  padding-bottom: 10px;
+  
 }
 
 
@@ -252,13 +273,50 @@ padding-top: 50px;
 	margin-top: 10px;
 }
 
-.artistas_icone{
-	background: none;
-	padding: 30px;
+.artistas_lista_home li h1{
+	font-family: Georgia, "Times New Roman", serif;
+	padding-top: 15px;
+	font-size: 16px;
+    text-align: center;
 }
 
+.artistas.artistas_listas_home ul{
+  margin: 0 auto;
+}
+.artistas_lista_home li{
+	background: none;
+	text-align: center; 
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+	}
+
+
+.artistas_lista_home h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 0px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	letter-spacing: .1em;
+    
+}
+
+.artistas_icone_home img{
+  height: 200px;
+  padding-bottom: 10px;
+  
+}
+
+
+.artistas_lista_home li p{
+	margin-top: 10px;
+}
+
+
 .artistas .call{
-	padding-top: 20px; 
+	padding-top: 40px; 
 	text-align: center;
 	clear: both;
 }
@@ -339,7 +397,7 @@ padding-top: 50px;
 	color: #fff;
 	text-align: center;
 	margin-bottom: 40px;
-	margin-top: 60px;
+	margin-top: 40px;
 	margin-right: 0px;
 	margin-left: 0px;
 }
@@ -468,4 +526,16 @@ padding-top: 50px;
 	width: 100%;
 	background:#65686a;
 	padding: 10px 0;
+}
+
+.homes {
+  opacity: 0;
+  transform: rotate(0.5turn);
+}
+
+.homes-init{
+  opacity: 1;
+  transition: .6s all ease;
+  transform: translate3d(0px,0px,0px);
+
 }

@@ -1,5 +1,56 @@
+/*estilo grid 18*/
+@media only screen and (min-width:960px) and (max-width: 1080px){
+  
+  /*artista HOME*/
+.artistas_lista_home li{
+}
+  
+.artistas_lista_home h3{
+	font-size: 12px;
+  
+}
+  
+.artistas_lista_home li h1{
+font-size: 12px;
+    
+}  
+  
+  
+.artistas_icone_home img{
+  height: 150px;
+  padding-bottom: 10px;
+}
+  
+}
 /*estilo para tablets*/
 @media only screen and (min-width:768px) and (max-width: 959px){
+
+/*artista HOME*/
+.artistas {
+  
+}
+  
+.artistas_lista_home li{
+
+    
+}  
+.artistas_lista_home h3{
+	font-size: 12px;
+  
+}
+  
+.artistas_lista_home li h1{
+font-size: 12px;
+    
+}  
+  
+.artistas_icone_home img{
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+
+
 
 
 /*Qualidade Home*/
@@ -13,7 +64,7 @@
 
 /*Footer*/
 .footer_redes ul li a{
-	border: 3px solid #fec63e;
+	border: 3px solid #fff;
 	display: block;
 	padding: 6px;
 }
@@ -23,35 +74,20 @@
 	height: 26px;
 }
 
-/*Produtos*/
+/*artistas*/
 
-.artistas_item h2{
-	top: -150px;
-	margin-bottom: -56px;
-}
+  
 
-.artistas_icone{
-	padding: 41px 0;
-}
 
-.artistas_info p{
-	font-size: 14px;
-	line-height: 20px;
-	height: 122px;
-	padding: 20px 30px;
-}
 
-.artistas_info ul li{
-	width: 181px;
-	height: 49px;
-}
+
 
 }/* Final do estilo para tablets*/
 
 
 /*estilo para smartphones*/
-@media only screen and (max-width:767px){
-
+@media only screen and (max-width:767px){  
+  
 /*header*/
 .header{
 	position: relative;
@@ -130,31 +166,107 @@
 }
 
 /*Artistas*/
-
-.artistas_item h2{
-	top: -100px;
-	margin-bottom: -68px;
+  
+.introducao-interna{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
 }
 
-.artistas_icone{
-	padding: 41px 0;
+.introducao-interna h1:after{
+	background: #fff;
+	text-align: center;
+}  
+
+.area-artista{
+	display: inline-block;
+	width:100%;
+	border:0px solid #000;
+	background: none;
+	color: #000;
+	padding: 0;
+	margin-bottom: 0;
+	outline: none;
+	font-size: 12px;
+	font-family: Georgia,"Times New Roman", serif;
+	margin-top: 10px;
+	text-align: center;  
+}
+  
+  .areafoto{
+    margin-left: 0;
+  }
+
+.areafoto img{
+	text-align: center;
+	margin-left: 0; 
+	margin-top: 0;
+	width: 200px;
+	padding: 0;
+    margin: 0 auto;
 }
 
-.artistas_info p{
+
+
+.area-artista h3{
+	margin-top: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+.artistainfo{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	letter-spacing: .1em;
+	font-size: 12px;
+    text-align: center;
+}
+
+.artistainfo b,.artistainfo p{
+	margin-left: 0;
+	font-size: 12px;
+}
+
+.artistainfo h1{
+	text-align: center;
+	font-size: 12px;
+	padding: 0;
+}
+
+.artistas_info h3{
+	text-align: center;
+}
+
+
+.btn-artista{
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 0;
+	color: #000;
 	font-size: 14px;
-	line-height: 20px;
-	height: auto;
-	padding: 20px 30px;
 }
 
-.artistas_info ul li{
-	width: 149px;
-	height: 49px;
-	font-size: 14px;
-	line-height: 20px;
-	padding-top: 14px;
+/*artista HOME*/
+.artistas h2{
+    margin: 0;
 }
-
+  
+.artistas_icone_home{
+	padding-top:20px;
+  
+}
+  
+.artistas_lista_home li{
+	background: none;
+	text-align: center; 
+    display: inline;
+}  
+  
+    
+/*orçamento*/
 .form{
 	padding-right:0px; 
 }
@@ -163,11 +275,63 @@
 	padding-right: 0px;
 }
 
+  
+
+/*cuidados*/
+  .cuidados{
+	background: #fff;
+	background-size: cover;
+	text-align: center;
+	padding-top: 60px;
+    overflow: hidden;  
+}
+  
+  .cuidados li{
+    font-size: 13px;
+  }
+  
+  
 /*Contato*/
 
 .contato_form{
 	padding-right:0px; 
 	margin-bottom: 40px;
+}
+
+/*footer*/
+.footer_art{
+	margin-top: 0;
+	margin-left: 0; 
+
+}
+
+.footer_art h3{
+	margin: 0 0 10px 0;
+	margin-left: 0; 
+}
+
+.footer_art ul{
+	margin-left: 10px;
+	text-align: center;
+}
+
+.footer_art ul li{
+	display: inline-block;
+	margin-right:16;
+	text-align: center;
+
+}
+
+.footer_art ul li a{
+	border: 3px solid #000;
+	display: block;
+	padding: 6px;
+	transition:all .5s ease;
+	text-align: center;
+}
+
+.footer_art ul li a:hover{
+	border-color: red;	
 }
 
 }/*Final do estilo para smartphone*/

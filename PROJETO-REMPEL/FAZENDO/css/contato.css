@@ -1,15 +1,15 @@
-
+/*titulo seção*/
 .interna_contato{
-	background: #fff;
+	background: url("../img/oo2.jpg") no-repeat center;
 	background-size: cover;
 	margin-top:90px;
-	padding-top:50px;
+	padding-top:65px;
 	text-align: center;
-	color: #000;
+	color: #fff;
 }
 
 .interna_contato h1:after{
-	background: #000;
+	background: #fff;
 }
 
 
@@ -18,7 +18,7 @@
 .orcamento{
 	background: #000;
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 0px;
 	padding: 40px 0; 
 }
 
@@ -117,6 +117,12 @@
 	margin: 8px 0;
 }
 
-.contato_mapa{
-	margin-bottom: 40px;
+/*mapa*/
+.contato_mapa a img{
+	padding:40px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+
 }
