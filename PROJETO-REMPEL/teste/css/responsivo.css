@@ -1,25 +1,4 @@
-/*estilo grid 18*/
-@media only screen and (min-width:960px) and (max-width: 1080px){
-  
-  /*artista HOME*/
-.artistas_lista_home li{
-}
-  
-.artistas_lista_home h3{
-	font-size: 12px;
-  
-}
-  
-.artistas_lista_home li h1{
-font-size: 12px;
-    
-}  
-  
-  
-.artistas_icone_home img{
-  height: 150px;
-  padding-bottom: 10px;
-}
+
   
 }
 /*estilo para tablets*/
@@ -70,15 +49,15 @@ font-size: 12px;
 }
 
 .footer_redes ul li a img{
-	width: 26px;
-	height: 26px;
+	width: 20px;
+	height: 20px;
 }
 
+
+  
 /*artistas*/
 
   
-
-
 
 
 

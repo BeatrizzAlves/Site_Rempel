@@ -1,18 +1,19 @@
+/*slide*/
 $(document).ready(function(){
   
   var classActive = 'active';
 
  
-  $('.artistas .artistas_lista a').first().addClass(classActive);
+  $('.artistas-port .artistas_lista a').first().addClass(classActive);
   $('.portifolio .mudar').first().addClass(classActive);
-  $('.artistas .artistas_lista img').first().addClass('art-border');
+  $('.artistas-port .artistas_lista img').first().addClass('art-border');
 
-  $('.artistas .artistas_lista a').click(function(e){
+  $('.artistas-port .artistas_lista a').click(function(e){
     e.preventDefault();
     var itemId = $(this).attr('href');
 
-    $('.artistas .artistas_lista a, .portifolio .mudar').removeClass(classActive);
-    $('.artistas .artistas_lista img').removeClass('art-border');
+    $('.artistas-port .artistas_lista a, .portifolio .mudar').removeClass(classActive);
+    $('.artistas-port .artistas_lista img').removeClass('art-border');
     $(this).addClass(classActive);
     $(this).find('img').addClass('art-border');
     $(itemId).addClass(classActive);
@@ -68,30 +69,6 @@ $(document).ready(function(){
 });
 
 
-Visibility.onVisible(function(){
-	setTimeout(function () {
-		$(".introducao h1").addClass("animated fadeInDown");
-	}, 400);
-	setTimeout(function () {
-		$(".introducao blockquote").addClass("animated fadeInDown");
-	}, 800);
-	setTimeout(function () {
-		$(".introducao .btn").addClass("animated fadeInDown");
-	}, 1200);
-	setTimeout(function () {
-		$(".animar").addClass("animated fadeInDown");
-	}, 1600);
-
-	setTimeout(function () {
-		$(".introducao-interna h1").addClass("animated fadeInDown");
-	}, 400);
-	setTimeout(function () {
-		$(".introducao-interna p").addClass("animated fadeInDown");
-	}, 800);
-	setTimeout(function () {
-		$(".animar-interno").addClass("animated fadeInDown");
-	}, 1200);
-});
 
 // Formulario
 

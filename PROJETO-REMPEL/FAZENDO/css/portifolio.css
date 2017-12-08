@@ -7,7 +7,7 @@
 }
 
 /*botões*/
-.artistas{
+.artistas-port{
 	outline: none;
 	font-size: 14px;
 	font-family: Georgia,"Times New Roman", serif;
@@ -152,7 +152,6 @@
 .mudar {
   opacity: 0;
   visibility: hidden;
-  
   position: absolute;
   top: 0;
 }

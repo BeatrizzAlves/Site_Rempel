@@ -51,8 +51,8 @@ img{
 
 
 .btn:hover{
-	color: #000;
-	border-color: #000;
+	color: firebrick;
+	border-color: firebrick;
 }
 
 
@@ -68,8 +68,8 @@ img{
 }
 
 .btn-todopreto:hover{
-	color: red;
-	border-color: red;
+	color: firebrick;
+	border-color: firebrick;
 }
 
 .subtitulo{
@@ -142,10 +142,10 @@ img{
 }
 
 .header_menu ul li a:hover{
-	color:#c34848;
+	color:firebrick;
 }
 .header_menu ul li a.menu_ativo{
-	color:#c34848;
+	color:firebrick;
 }
 
 .introducao{
@@ -317,13 +317,14 @@ padding-bottom: 80px;
 
 .artistas .call{
 	padding-top: 40px; 
+    padding-bottom: 10px;
 	text-align: center;
 	clear: both;
 }
 
 
 .call{
-	padding-top: 50px; 
+	padding-top: 40px; 
 	text-align: center;
 	clear: both;
 }
@@ -344,6 +345,7 @@ padding-bottom: 80px;
 
 .portifolio .subtitulo{
 	color:#fff;
+  margin-bottom: 20px;
 }
 
 .portifolio .subtitulo:after{
@@ -355,6 +357,9 @@ padding-bottom: 80px;
 
 }
 
+.portifolio .call{
+  margin-bottom: 10px;
+}
 .portifolio .call p{
 	color: #fff;
 }
@@ -368,7 +373,7 @@ padding-bottom: 80px;
 .studio{
 	content: "";
 	width: 100%;
-	background: url("../img/fundohome.jpg") no-repeat center;
+	background: url("../img/fundoverm.jpg")  no-repeat center;
 	padding: 40px 0;
 	display: block;
 }
@@ -389,6 +394,10 @@ padding-bottom: 80px;
 	color: #fff;
 }
 
+.studio .call{
+  padding-bottom: 10px;
+}
+
 .subtitulo-studio{
 	font-size: 18px;
 	line-height: 30px;
@@ -406,18 +415,18 @@ padding-bottom: 80px;
 /* Qualidade */
 
 .qualidade{
-	padding: 60px 0;
+	padding: 40px 0;
 }
 
 .qualidade:after{
 	content: "";
 	width: 641px;
-	height: 87px;
+	height: 85px;
 	display: block;
 	background: url("../img/linhasquali2.png") no-repeat center;
 	position: absolute;
-	top: 185px;
-	right: 160px;
+	top: 170px;
+	right: 159px;
 	z-index: -1;
 }
 
@@ -452,6 +461,10 @@ padding-bottom: 80px;
 	height: 3px;
 	background: #000;
 	margin: 6px auto;
+}
+
+.qualidade .call{
+  margin-bottom: 10px;
 }
 
 /*Quebra*/

@@ -1,7 +1,6 @@
 /*estilo grid 18*/
 @media only screen and (min-width:1061px){
   
-
   
 /*Qualidade Home*/
 .qualidade:after{
@@ -13,6 +12,8 @@
 }
 
 }
+
+
 /*estilo para tablets*/
 @media only screen and (min-width:785px) and (max-width: 1060px){
 
@@ -163,6 +164,13 @@ font-size: 12px;
 .header_menu ul li a.menu_ativo{
 	border-color: #fff;
 }
+  
+.header_menu ul li a:hover{
+	color:white;
+}
+.header_menu ul li a.menu_ativo{
+	color:white;
+}
 
 
 /*introdução*/
@@ -173,17 +181,27 @@ font-size: 12px;
 
 .introducao{
 	margin-top: 0px;
-	padding-top: 40px;
+	padding: 0 0 40px 0;
 	background: fff;
 	background-size: cover;
 }
-
+ 
 /*Introdução Interna*/
 
 .introducao-interna{
 	margin-top:0px;
 }
-
+  
+/*portifolio*/
+  .artistas_lista li {
+    margin-top: 20px;
+  }
+  .artistas-port{
+    padding-top: 30px;
+  }
+  
+  
+  
 /*Call*/
 
 .call{
@@ -236,6 +254,10 @@ font-size: 12px;
 	text-align: center;  
 }
   
+  .artista-fundo .area-artista{
+    margin-top: 10px;
+}
+  
   .areafoto{
     margin-left: 0;
   }
@@ -248,7 +270,6 @@ font-size: 12px;
 	padding: 0;
     margin: 0 auto;
 }
-
 
 
 .area-artista h3{
@@ -268,7 +289,13 @@ font-size: 12px;
     text-align: center;
 }
 
-.artistainfo b,.artistainfo p{
+.artistainfo b{
+	margin-left: 0px;
+	font-size: 12px;
+    
+}
+
+.artistainfo p{
 	margin-left: 0;
 	font-size: 12px;
 }
@@ -321,16 +348,9 @@ font-size: 12px;
   
 
 /*cuidados*/
-  .cuidados{
-	background: #fff;
-	background-size: cover;
-	text-align: center;
-	padding-top: 60px;
-    overflow: hidden;  
-}
   
   .cuidados li{
-    font-size: 13px;
+    font-size: 12px;
   }
   
   
@@ -341,7 +361,7 @@ font-size: 12px;
 	margin-bottom: 40px;
 }
 
-/*footer*/
+/*footer artista*/
 .footer_art{
 	margin-top: 0;
 	margin-left: 0; 
@@ -360,7 +380,7 @@ font-size: 12px;
 
 .footer_art ul li{
 	display: inline-block;
-	margin-right:16;
+	margin-right:12px;
 	text-align: center;
 
 }
@@ -375,6 +395,28 @@ font-size: 12px;
 
 .footer_art ul li a:hover{
 	border-color: red;	
+}
+  
+/*Fotter*/
+
+.footer{
+
+    text-align: left;
+    padding: 20px 0 0 90px;
+}
+
+
+.footer_historia{
+	padding-right: 0;
+}
+
+
+
+.copy{
+	width: 100%;
+	background:#65686a;
+	padding: 10px 0;
+    text-align: center;
 }
 
 }/*Final do estilo para smartphone*/
