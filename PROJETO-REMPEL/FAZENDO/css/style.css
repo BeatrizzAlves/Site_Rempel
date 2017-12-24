@@ -371,11 +371,12 @@ padding-bottom: 80px;
 /*Studio*/
 
 .studio{
-	content: "";
+    content: "";
 	width: 100%;
-	background: url("../img/fundoverm.jpg")  no-repeat center;
+	background: url("../img/background-studio.jpg") no-repeat center;
 	padding: 40px 0;
 	display: block;
+    background-size: cover;
 }
 
 .studio .subtitulo{

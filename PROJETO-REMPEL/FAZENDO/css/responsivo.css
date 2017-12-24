@@ -35,8 +35,6 @@ font-size: 12px;
 
 
 
-
-
 /*Qualidade Home*/
 .qualidade:after{
 	right: 63px;
@@ -58,12 +56,12 @@ font-size: 12px;
 	height: 26px;
 }
 
-/*cuidados*/
+/*cuidados
 
   
 .cuidados li{
   font-size: 14px;
-}
+}*/
   
 
 /*footer*/
@@ -334,6 +332,19 @@ font-size: 12px;
 	text-align: center; 
     display: inline;
 }  
+
+  
+  /*potifolio*/
+  .artistas_lista li img{
+	height: 80px;
+}
+  .artistas_lista li p{
+    font-size: 13px;
+}
+  .artistas_lista li{
+    padding-left: 0px;
+  }
+  
   
     
 /*orçamento*/
@@ -347,11 +358,11 @@ font-size: 12px;
 
   
 
-/*cuidados*/
+/*cuidados
   
   .cuidados li{
     font-size: 12px;
-  }
+  }*/
   
   
 /*Contato*/
@@ -402,14 +413,22 @@ font-size: 12px;
 .footer{
 
     text-align: left;
-    padding: 20px 0 0 60px;
+    padding: 20px 0;
 }
 
 
 .footer_historia{
-	padding-right: 0;
+    padding-left: 20px;
 }
 
+  
+.footer_contato {
+   padding-left: 20px;
+}
+
+.footer_redes {
+   padding-left: 20px;
+}
 
 
 .copy{

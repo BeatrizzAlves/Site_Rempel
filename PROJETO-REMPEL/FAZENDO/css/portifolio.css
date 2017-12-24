@@ -9,7 +9,6 @@
 /*botões*/
 .artistas-port{
 	outline: none;
-	font-size: 14px;
 	font-family: Georgia,"Times New Roman", serif;
 	background: #000;
 	text-align: center;
@@ -18,22 +17,25 @@
 	padding: 40px 0 0 0;
 }
 
-.artistas_lista{
-	text-align: center;
+.artistas_lista img{
+  margin:auto;
 }
 
 .artistas_lista li{
 	background: none;
-	position: relative;
-	padding-left: 20px;
-	text-align: center;
+	position:relative;
 	padding-left: 10px;
 	padding-right: 10px;
     display: inline-block;
 }
 
+.artistas_lista li p{
+
+}
+
 .artistas_lista li img{
 	height: 100px;
+    
 }
 
 .art-border{

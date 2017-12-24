@@ -1,0 +1,433 @@
+/*estilo grid 18*/
+@media only screen and (min-width:1061px){
+  
+  
+/*Qualidade Home*/
+.qualidade:after{
+	right: 160px;
+}
+
+.qualidade_lista li{
+	padding: 0 10px;
+}
+
+}
+
+
+/*estilo para tablets*/
+@media only screen and (min-width:785px) and (max-width: 1060px){
+
+/*artista HOME*/
+.artistas_lista_home h3{
+	font-size: 12px;
+  
+}
+  
+.artistas_lista_home li h1{
+font-size: 12px;
+    
+}  
+  
+.artistas_icone_home img{
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+
+
+
+
+/*Qualidade Home*/
+.qualidade:after{
+	right: 63px;
+}
+
+.qualidade_lista li{
+	padding: 0 10px;
+}
+
+/*Footer*/
+.footer_redes ul li a{
+	border: 3px solid #fff;
+	display: block;
+	padding: 6px;
+}
+
+.footer_redes ul li a img{
+	width: 26px;
+	height: 26px;
+}
+
+/*cuidados*/
+
+  
+.cuidados li{
+  font-size: 14px;
+}
+  
+
+/*footer*/
+.footer_art{
+	margin-top: 80px;
+	margin-left: 10px;
+
+}
+
+.footer_art h3{
+	margin: 0 0 12px 0;
+	margin-left: 0;
+    text-align: left;
+}
+
+.footer_art ul{
+	margin-left:0;
+}
+
+.footer_art ul li{
+	display: inline-block;
+	margin-right: 9px;
+
+}
+
+.footer_art ul li a{
+	border: 3px solid #000;
+	display: block;
+	padding: 4px;
+	transition:all .5s ease;
+  
+}
+
+
+/*Artistas*/
+   
+.btn-artista .btn-todopreto {
+    padding: 10px 32px;
+	text-align:;
+	margin-top: 20px;
+	margin-left: -20px;
+	font-size: 12px;
+}
+
+
+.area-artista{
+	display: inline-block;
+	width:98%;
+	height:280px;
+	border:2px solid #000;
+	background: none;
+	color: #000;
+	padding: 0;
+	margin-bottom: 0;
+	outline: none;
+	font-size: 12px;
+	font-family: Georgia,"Times New Roman", serif;
+	margin-top: 10px;
+	text-align: center;  
+}
+
+
+}/* Final do estilo para tablets*/
+
+
+/*estilo para smartphones*/
+@media only screen and (max-width:784px){  
+  
+/*header*/
+.header{
+	position: relative;
+	padding-bottom: 0;
+}
+
+.header img{
+	margin: 0 auto 10px auto;
+}
+
+.header_menu{
+	text-align: center;
+}
+
+.header_menu ul li {
+	margin: 5px;
+}
+
+.header_menu ul li a{
+	border: 4px solid #000;
+	width: 136px;
+	display: block;
+	float: left;
+}
+
+.header_menu ul li a:hover{
+	border-color: #fff;
+}
+
+.header_menu ul li a.menu_ativo{
+	border-color: #fff;
+}
+  
+.header_menu ul li a:hover{
+	color:white;
+}
+.header_menu ul li a.menu_ativo{
+	color:white;
+}
+
+
+/*introdução*/
+
+.introducao h1{
+	font-size: 36px;
+}
+
+.introducao{
+	margin-top: 0px;
+	padding: 0 0 40px 0;
+	background: fff;
+	background-size: cover;
+}
+ 
+/*Introdução Interna*/
+
+.introducao-interna{
+	margin-top:0px;
+}
+  
+/*portifolio*/
+  .artistas_lista li {
+    margin-top: 20px;
+  }
+  .artistas-port{
+    padding-top: 30px;
+  }
+  
+  
+  
+/*Call*/
+
+.call{
+	padding: 10px;
+}
+
+/*Qualidade Home*/
+.qualidade:after{
+	display: none;
+}
+
+/*Sobre*/
+
+.missao_sobre p{
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 0px;
+}
+
+.missao_sobre ul li{
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/*Artistas*/
+  
+.introducao-interna{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+.introducao-interna h1:after{
+	background: #fff;
+	text-align: center;
+}  
+
+.area-artista{
+	display: inline-block;
+	width:100%;
+	border:0px solid #000;
+	background: none;
+	color: #000;
+	padding: 0;
+	margin-bottom: 0;
+	outline: none;
+	font-size: 12px;
+	font-family: Georgia,"Times New Roman", serif;
+	margin-top: 10px;
+	text-align: center;  
+}
+  
+  .artista-fundo .area-artista{
+    margin-top: 10px;
+}
+  
+  .areafoto{
+    margin-left: 0;
+  }
+
+.areafoto img{
+	text-align: center;
+	margin-left: 0; 
+	margin-top: 0;
+	width: 200px;
+	padding: 0;
+    margin: 0 auto;
+}
+
+
+.area-artista h3{
+	margin-top: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+.artistainfo{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	letter-spacing: .1em;
+	font-size: 12px;
+    text-align: center;
+}
+
+.artistainfo b{
+	margin-left: 0px;
+	font-size: 12px;
+    
+}
+
+.artistainfo p{
+	margin-left: 0;
+	font-size: 12px;
+}
+
+.artistainfo h1{
+	text-align: center;
+	font-size: 12px;
+	padding: 0;
+}
+
+.artistas_info h3{
+	text-align: center;
+}
+
+
+.btn-artista{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 0;
+	color: #000;
+	font-size: 14px;
+}
+
+/*artista HOME*/
+.artistas h2{
+    margin: 0;
+}
+  
+.artistas_icone_home{
+	padding-top:20px;
+  
+}
+  
+.artistas_lista_home li{
+	background: none;
+	text-align: center; 
+    display: inline;
+}  
+  
+    
+/*orçamento*/
+.form{
+	padding-right:0px; 
+}
+
+.orcamento_dados ul{
+	padding-right: 0px;
+}
+
+  
+
+/*cuidados*/
+  
+  .cuidados li{
+    font-size: 12px;
+  }
+  
+  
+/*Contato*/
+
+.contato_form{
+	padding-right:0px; 
+	margin-bottom: 40px;
+}
+
+/*footer artista*/
+.footer_art{
+	margin-top: 0;
+	margin-left: 0; 
+
+}
+
+.footer_art h3{
+	margin: 0 0 10px 0;
+	margin-left: 0; 
+}
+
+.footer_art ul{
+	margin-left: 10px;
+	text-align: center;
+}
+
+.footer_art ul li{
+	display: inline-block;
+	margin-right:12px;
+	text-align: center;
+
+}
+
+.footer_art ul li a{
+	border: 3px solid #000;
+	display: block;
+	padding: 6px;
+	transition:all .5s ease;
+	text-align: center;
+}
+
+.footer_art ul li a:hover{
+	border-color: red;	
+}
+  
+/*Fotter*/
+
+.footer{
+
+    text-align: left;
+    padding: 20px 0;
+}
+
+
+.footer_historia{
+    padding-left: 20px;
+}
+
+  
+.footer_contato {
+   padding-left: 20px;
+}
+
+.footer_redes {
+   padding-left: 20px;
+}
+
+
+
+
+.copy{
+	width: 100%;
+	background:#65686a;
+	padding: 10px 0;
+    text-align: center;
+}
+
+}/*Final do estilo para smartphone*/
+
